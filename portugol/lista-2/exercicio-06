@@ -1,0 +1,38 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Arquivo: Exercício numero 6 da Pt. 2
+* Data: 02/04/2026
+* Autor: Samuel Kimura Martins e Lorenzo Ravely 
+* Descrição: 
+Ler a idade do passageiro. Determinar o preço de uma passagem de
+acordo com a idade do passageiro: até 2 anos (gratuita), de 3 a 12 anos
+(meia tarifa) e acima de 12 anos (tarifa completa). Exibir o tipo de tarifa
+que deve ser aplicada.
+*/
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro idade 
+		escreva("Qual a sua idade: ")
+		leia(idade) 
+
+		se (idade <= 2) 
+		{
+			escreva("A tarifa é gratuita.")
+		}
+
+		senao se (idade >= 3 e idade <= 12) 
+		{
+			escreva("A tarifa é meia.")
+		}
+
+		senao se (idade > 12 )
+		{
+			escreva("A tarifa é completa.")
+		}
+	}
+}
+
