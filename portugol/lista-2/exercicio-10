@@ -1,0 +1,42 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Arquivo: Exercício numero 10 da Pt. 2
+* Data: 02/04/2026
+* Autor: Samuel Kimura Martins e Lorenzo Ravely 
+* Descrição: 
+* Ler a classificação indicativa de um filme. Identificar e exibir a categoria
+* desse filme, com base na classificação indicativa: até 10 anos (infantil),
+* de 11 a 14 anos (infantojuvenil), de 15 a 17 anos (juvenil) e acima de 17
+* anos (adulto).
+*/
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro classificacao
+		escreva("Qual sua classificação indicativa: ") 
+		leia(classificacao) 
+
+		se (classificacao <= 10)
+		{
+			escreva("Sua classificação é infantil.")
+		}
+
+		senao se (classificacao <= 14)
+		{
+			escreva("Sua classificação é Infantojuvenil.")
+		}
+
+		senao se (classificacao <= 17)
+		{
+			escreva("Sua classificação é Juvenil.")
+		}
+
+		senao
+		{
+			 escreva("Sua classificação é adulto")
+		}
+	}
+}
