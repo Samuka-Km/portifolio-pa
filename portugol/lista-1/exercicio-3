@@ -1,0 +1,23 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+* Arquivo: Exercício numero 3.
+* Data: 05/03/2026
+* Autor: Samuel Kimura Martins e Lorenzo Ravely 
+* Descrição: 
+*Ler a base e altura de um triângulo. Calcular e exibir a área do triângulo
+sabendo que área = base * altura / 2.
+*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real b, h 
+		escreva("Base= ") 
+		leia(b)
+		escreva("Altura= ")
+		leia(h)
+		escreva(b * h / 2)  
+	}
+}
