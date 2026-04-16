@@ -1,0 +1,23 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+* Arquivo: Exercício numero 6. 
+* Data: 05/03/2026
+* Autor: Samuel Kimura Martins e Lorenzo Ravely 
+* Descrição: 
+* Ler o peso de uma pessoa em quilos, calcular e mostrar o peso em
+gramas.
+*/
+
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real quilos, gramas 
+		escreva("Qual seu peso: ")
+		leia(quilos)
+		escreva("Seu peso em gramas: ") 
+		escreva(quilos * 1000)
+	}
+}
