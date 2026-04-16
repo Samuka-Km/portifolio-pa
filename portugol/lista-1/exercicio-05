@@ -1,0 +1,22 @@
+//  Instituição: EtecVAV - Vasco Antonio Vechiarutti
+//
+// Arquivo: exercicio 5 
+// Data: 12/03/2026
+// Autor: Samuel Kimura e Lorenzo Ravely
+ //Descrição: 
+//O motorista de aplicativo abastece o tanque do seu carro com um
+//determinado valor em reais. Ler o preço do litro de combustível e o valor
+//que pretende abastecer. Calcular a quantidade de litro no abastecimento
+// exibir os dados lidos e o valor calculado.
+programa
+{
+	
+	funcao inicio()
+	{
+		real litro
+		escreva("Qual a quantidade que você deseja colocar: ")
+		leia(litro)
+		escreva("Valor a pagar: ")
+		escreva(litro * 6.28)
+	}
+}
