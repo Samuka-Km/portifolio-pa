@@ -1,0 +1,23 @@
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+* Arquivo: Exercício numero 2.
+* Data: 05/03/2026
+* Autor: Samuel Kimura Martins e Lorenzo Ravely 
+* Descrição: 
+*Ler o nome e a idade do usuário. Calcular a idade em meses e dias. Exibir
+o nome e a idade em anos, meses e dias.
+*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro idade, mes, dia
+		escreva("Qual sua idade: ")
+		leia(idade) 
+		escreva("Idade em meses: ")
+		escreva(idade * 12) 
+		escreva(" Idade em dias: ")
+		escreva(idade * 360)
+	}
+}
