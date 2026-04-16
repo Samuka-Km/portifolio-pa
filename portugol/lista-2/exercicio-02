@@ -1,0 +1,44 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Arquivo: Exercício numero 2 da Pt. 2
+* Data: 02/04/2026
+* Autor: Samuel Kimura Martins e Lorenzo Ravely 
+* Descrição: 
+*Ler três números, verificar se formam um triângulo e, se sim, exibir se é
+um triângulo equilátero, isósceles ou escaleno.
+*/
+programa
+{
+	
+	funcao inicio()
+	{
+		real n1, n2, n3 
+		escreva("Escreva o tamanho do lado A: ")
+		leia(n1)
+		escreva("Escreva o tamanho do lado B: ")
+		leia(n2)
+		escreva("Escreva o tamanho do lado C: ")
+		leia(n3)
+
+		se (n1+n2>n3 e n2+n3>n1 e n3+n1>n2)
+		{
+		escreva("Isso é um triângulo")
+		}
+		
+		se ((n1==n2) e (n2==n3))
+		{
+		escreva(" equilátero")
+		}
+
+		se (n1==n2 e n1!=n3 e n2!=n3)
+		{
+		escreva(" isósceles")
+		}
+
+		se ((n1!=n2 e n2!=n3))
+		{
+		escreva(" escaleno")
+		}
+	}
+}
