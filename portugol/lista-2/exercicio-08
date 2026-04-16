@@ -1,0 +1,32 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Arquivo: Exercício numero 6 da Pt. 2
+* Data: 02/04/2026
+* Autor: Samuel Kimura Martins e Lorenzo Ravely 
+* Descrição: 
+Ler três números inteiros e exibir o maior desses três números.
+*/
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n1, n2, n3 
+		escreva("Coloque aqui seu número: ") 
+		leia(n1) 
+		escreva("Coloque aqui seu número (diferente do primeiro): ") 
+		leia(n2) 
+		escreva("Coloque aqui seu número (diferente do primeiro e do segundo): ") 
+		leia(n3) 
+
+		se (n1 > n2 e n1 > n3)
+			escreva(n1, " é maior")
+			
+		senao se (n2 > n1 e n2 > n3)
+			escreva(n2, " é maior")
+
+		senao se (n3 > n1 e n3 > n2)
+			escreva(n3, " é maior")
+	}
+}
