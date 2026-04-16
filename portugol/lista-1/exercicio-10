@@ -1,0 +1,35 @@
+//  Instituição: EtecVAV - Vasco Antonio Vechiarutti
+//
+// Arquivo: exercicio 9
+// Data: 12/03/2026
+// Autor: Samuel Kimura e Lorenzo Ravely
+//O caixa do supermercado recebe uma certa quantidade de moedas por
+//dia. Ler a quantidade de moedas recebidas de acordo com cada um dos
+//valores 1, 5, 10, 25 e 50 centavos, e ainda moedas de 1 real. Calcular e
+//exibir o valor recebido de cada um dos tipos de moeda e a soma total em
+//moedas.
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real n1, n2, n3, n4, n5, n6
+		escreva("Quantidade de moedas de 1 centavo: ")
+		leia(n1)
+		escreva("Quantidade de moedas de 5 centavo: ")
+		leia(n2)
+		escreva("Quantidade de moedas de 10 centavo: ") 
+		leia(n3) 
+		escreva("Quantidade de moedas de 25 centavo: ")
+		leia(n4) 
+		escreva("Quantidade de moedas de 50 centavo: ")
+		leia(n5)
+		escreva("Quantidade de moedas de 1 real: ") 
+		leia(n6) 
+		escreva("O valor é: ") 
+		escreva(n1 * 0.01 + n2 * 0.05 + n3 * 0.10 + n4 * 0.25 + n5 * 0.50 + n6 * 1)
+		
+	}
+}
+	
