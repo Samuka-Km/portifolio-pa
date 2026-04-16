@@ -1,0 +1,25 @@
+//  Instituição: EtecVAV - Vasco Antonio Vechiarutti
+//
+// Arquivo: exercicio 9
+// Data: 12/03/2026
+// Autor: Samuel Kimura e Lorenzo Ravely
+ //Descrição: Ler o peso de um boi e o percentual de engorda. Calcular e exibir o novo
+//peso do boi.
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real peso, gordura 
+		escreva("Qual o peso do boi: ")
+		leia(peso)
+		escreva("Qual o percentual de engorda: ")
+		leia(gordura)
+		gordura = gordura / 100
+		escreva(" O peso do boi atualmente é: ")
+		escreva((peso * gordura) + peso)
+		
+	}
+}
+	
