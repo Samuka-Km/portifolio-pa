@@ -1,0 +1,25 @@
+//  Instituição: EtecVAV - Vasco Antonio Vechiarutti
+//
+// Arquivo: exercicio 7
+// Data: 12/03/2026
+// Autor: Samuel Kimura e Lorenzo Ravely
+ //Descrição: 
+//Ler a base menor, a base maior e a altura. Calcular e mostrar a área de
+//um trapézio: (base menor + base maior) + altura / 2.
+programa
+{
+	
+	funcao inicio()
+	{
+		real base_M, base_m, altura 
+		escreva("Qual a base maior: ")
+		leia(base_M)
+		escreva("Qual a base menor: ") 
+		leia(base_m) 
+		escreva("Qual a altura: ")
+		leia(altura) 
+		escreva("A área do trapézio é: ")
+		escreva((base_M + base_m) + altura * 2) 
+		
+	}
+}
