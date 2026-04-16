@@ -1,0 +1,31 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Arquivo: Exercício numero 6 da Pt. 2
+* Data: 02/04/2026
+* Autor: Samuel Kimura Martins e Lorenzo Ravely 
+* Descrição: 
+Ler um número, verificar e exibir se o número é um quadrado perfeito, ou
+seja, se a raiz quadrada dele é um número inteiro.
+*/
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num, raiz = 0
+		escreva("Qual seu número: ")
+		leia(num)
+
+		enquanto (raiz * raiz < num) {
+			raiz = raiz + 1
+		}
+
+		se (raiz * raiz == num) {
+			escreva(num, " é um quadrado perfeito")
+		}
+		senao {
+			escreva(num, " Não é um quadrado perfeito")
+		}
+	}
+}
