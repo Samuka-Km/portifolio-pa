@@ -1,0 +1,36 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Arquivo: Exercício numero 1. 
+* Data: 05/03/2026
+* Autor: Samuel Kimura Martins e Lorenzo Ravely 
+* Descrição: 
+Ler um número inteiro. Verificar e exibir se o número é primo.
+*/
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n1, div = 0 
+		escreva("Qual seu número: ")
+		leia(n1)
+
+		para (inteiro i = 1; i <= n1; i++)
+		{
+			se (n1 % i == 0)
+			{
+				div++
+			}
+		}
+
+		se (div == 2)
+		{
+			escreva("Seu número é primo")
+		}
+		senao 
+		{
+			escreva("Seu número não é primo")
+		}
+	}
+}
