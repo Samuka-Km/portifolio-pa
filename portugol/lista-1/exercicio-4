@@ -1,0 +1,29 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+* Arquivo: Exercício numero 4 
+* Data: 05/03/2026
+* Autor: Samuel Kimura Martins e Lorenzo Rav	ely 
+* Descrição: 
+*Ler 4 notas, calcular a média ponderada com os pesos 1, 2, 3 e 4
+respectivamente e exibir as notas e o resultado da média.
+
+*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real n1, n2, n3, n4 
+		escreva("Nota do primeiro bismestre: ")
+		leia(n1)
+		escreva("Nota do segundo bismestre: ")
+		leia(n2)
+		escreva("Nota do terceiro bismestre: ")
+		leia(n3)
+		escreva("Nota do quarto bismestre: ")
+		leia(n4)
+		escreva("Nota final: ") 
+		escreva(n1 * 1 + n2 * 2 + n3 * 3 + n4 * 4 / 10) 
+	}
+}
