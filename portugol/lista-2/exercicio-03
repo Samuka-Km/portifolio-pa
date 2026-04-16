@@ -1,0 +1,42 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Arquivo: Exercício numero 1 da Pt. 2
+* Data: 02/04/2026
+* Autor: Samuel Kimura Martins e Lorenzo Ravely 
+* Descrição: 
+*Ler o valor de uma compra e calcular o desconto, de acordo com o valor
+total da compra: se for menor que R$100, não há desconto; se for entre
+R$100 e R$500, o desconto é de 10%; acima de R$500, o desconto é de
+20%. Exibir o valor após aplicado o desconto.
+*/
+programa
+{
+	
+	funcao inicio()
+	{
+		real valor 
+		escreva("Valor da compra: ")
+		leia(valor) 
+
+		se (valor<=100)
+		{
+			escreva("Não há desconto.")
+		}
+
+		senao se (valor>=100 e valor<500)
+		{ 
+			escreva("Seu desconto é de 10%.")
+			valor = valor - (valor * 0.10)
+			escreva(" Valor final é de: ", valor) 
+		}
+
+		senao se (valor>=500)
+		{
+			escreva("Seu desconto é de 20%")
+			valor = valor - (valor * 0.20)
+			escreva(" Valor final é de: ", valor) 
+		}
+	}
+		
+}
