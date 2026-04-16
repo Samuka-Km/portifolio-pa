@@ -1,0 +1,24 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Arquivo: Exercício numero 1. 
+* Data: 05/03/2026
+* Autor: Samuel Kimura Martins e Lorenzo Ravely 
+* Descrição: 
+* O Haras Cavalos Brilhantes compra cavalos com frequência. Ler a quantidade de cavalos
+* adquiridos recentemente, calcular a quantidade de ferraduras necessárias para os novos cavalos e exibir
+* a quantidade de novos cavalos e sua respectiva quantidade de ferraduras.
+*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro cavalos
+		escreva("Quantidades de cavalos: ") 
+		leia(cavalos)
+		escreva("Quantidades de ferraduras necessarias: ")
+		escreva(cavalos * 4)
+	}
+}
