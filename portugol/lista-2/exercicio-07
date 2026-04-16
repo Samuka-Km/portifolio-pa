@@ -1,0 +1,30 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Arquivo: Exercício numero 7 da Pt. 2
+* Data: 02/04/2026
+* Autor: Samuel Kimura Martins e Lorenzo Ravely 
+* Descrição: 
+Ler um caractere. Verificar se o caractere lido é uma vogal. Exibir o
+caractere lido com a informação se é ou não uma vogal.
+*/
+programa
+{
+	
+	funcao inicio()
+	{
+		caracter vogal
+		escreva("Qual sua letra: ")
+		leia(vogal)
+
+		se (vogal == 'A' ou vogal == 'E' ou vogal == 'I' ou vogal == 'O' ou vogal == 'U' ou vogal == 'a' ou vogal == 'e' ou vogal == 'i' ou vogal == 'o' ou vogal == 'u')
+		{
+			escreva("Sua letra é uma vogal.")
+		}
+
+		senao
+		{
+			escreva("Sua letra é uma consoante.")
+		}
+	}
+}
