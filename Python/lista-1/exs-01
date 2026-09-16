@@ -1,0 +1,13 @@
+#Autor: Samuel Kimura Martins
+# Descrição: Lê um número inteiro e informa se ele é positivo, negativo ou zero.
+
+numero = int(input("Digite um número: "))
+
+if numero < 0:
+    print("Seu número é negativo")
+
+if numero > 0:
+    print("Seu número é positivo")
+
+else:
+    print("Seu número é zero")
