@@ -1,0 +1,14 @@
+#Autor: Samuel Kimura Martins
+# Descrição: Lê dois números inteiros e informa qual é o maior ou se são iguais.
+
+n1 = int(input("Digite seu primeiro número: "))
+n2 = int(input("Digite seu segundo número: "))
+
+if n1 > n2:
+    print(f"O maior número é {n1}")
+
+if n1 < n2:
+    print(f"O núero maior é {n2}")
+
+else:
+    print("Os dois número são iguais")
