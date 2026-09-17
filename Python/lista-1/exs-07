@@ -1,0 +1,25 @@
+# Autor: Samuel Kimura Martins
+# Lê 10 números e conta quantos são positivos, negativos e zeros.
+
+n1 = 0 
+cont = 1 
+positivos = 0 
+negativos = 0 
+zeros = 0 
+
+while cont <= 10:
+    n1 = int(input("Digite o " + str(cont) + "o numero: "))
+
+    if n1 > 0:
+        positivos += 1
+    elif n1 < 0:
+        negativos += 1 
+    else:
+        zeros += 1 
+
+    cont += 1 
+
+print("Positivos: ", positivos)
+print("Negativos: ", negativos)
+print("Zeros: ", zeros)
+  
