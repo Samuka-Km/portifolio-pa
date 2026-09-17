@@ -1,0 +1,18 @@
+#Autor: Samuel Kimura Martins
+# Descrição: Lê um número de 1 a 10 e exibe sua tabuada, validando a entrada.
+
+soma = 0
+quantidade = 0
+
+nota = float(input("Digite uma nota entre 0 a 10: "))
+
+while nota >= 0 and nota <=10:
+    soma = soma + nota
+    quantidade += 1
+
+    nota = float(input("Digite uma nota entre 0 a 10: "))
+
+if quantidade > 0:
+    print("Media das notas;", soma / quantidade)
+else:
+    print("Nenhuma nota valida foio digitada.")
