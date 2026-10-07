@@ -1,0 +1,18 @@
+#Autor: Samuel Kimura Martins
+# Descrição: Simula um sistema simples de senha com até 3 tentativas.
+
+senhaCorreta = input("Cadastre sua senha: ")
+
+tentativas = 1
+limiteTentativas = 3
+
+senha = input("Confirme sua senha: ")
+
+while senha != senhaCorreta and tentativas < limiteTentativas:
+    senha = input("Senha incorreta. Tente novamente: ")
+    tentativas += 1
+
+if senha == senhaCorreta:
+    print("Acesso liberado.")
+else:
+    print("Acesso bloqueado.")
